@@ -26,5 +26,12 @@ public class LineComparison {
         System.out.println("Enter the second line co-ordinates");
         Double length2 = lineLength();
         System.out.println("Length of Second line : "+length2);
+
+        if (length1.equals(length2)==true){
+            System.out.println(length1+" and "+length2+" are equal lengths");
+        }
+        else {
+            System.out.println(length1+" and "+length2+" are not equal lengths");
+        }
     }
 }
