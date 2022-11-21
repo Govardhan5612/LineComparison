@@ -27,11 +27,25 @@ public class LineComparison {
         Double length2 = lineLength();
         System.out.println("Length of Second line : "+length2);
 
-        if (length1.equals(length2)==true){
+        boolean equalsMethod = length1.equals(length2);
+
+        if (equalsMethod==true){
             System.out.println(length1+" and "+length2+" are equal lengths");
         }
         else {
             System.out.println(length1+" and "+length2+" are not equal lengths");
         }
+
+        int compareLengths = length1.compareTo(length2);
+        if (compareLengths ==1){
+            System.out.println(length1+" is grater then "+length2);
+        }
+        else if (compareLengths ==-1){
+            System.out.println(length1+" is lesser then "+length2);
+        }
+        else {
+            System.out.println(length1+" and "+length2+" are equal lengths");
+        }
+
     }
 }
