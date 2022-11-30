@@ -1,15 +1,13 @@
 package com.bridgelabz;
-
 /**
  * @author GovardhanReddy
  */
-public class Coordinates {
+public class LinePoints {
     /**
      * taking x and y instance variables
      */
     private double x;
     private double y;
-
     /**
      *providing set and get method
      * assign value use set method
